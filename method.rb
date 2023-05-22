@@ -10,7 +10,7 @@ sayhi
 sayhi
 
 def sayhello(name, age = 21)
-    puts ("Hello " + name + ", you are " + age)
+    puts ("Hello " + name + ", you are " + age.to_s)
 end
 # calling a method so that it can return a value from a method
 sayhello ("Mike")
